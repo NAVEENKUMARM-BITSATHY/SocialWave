@@ -1,0 +1,42 @@
+.postList{
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.postCards{
+    margin-bottom: 30px;
+    width: 90%;
+    /* max-width: 800px; */
+    background-color: rgb(250, 216, 216) !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+    margin : 20px 20px;
+} 
+.postImage{
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.fabButton {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 1000; 
+}
+
+.modalContent {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modalContent input[type="file"] {
+    margin-top: 10px;
+}
