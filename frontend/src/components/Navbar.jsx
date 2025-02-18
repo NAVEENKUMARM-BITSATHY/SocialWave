@@ -102,10 +102,10 @@ const Navbar = ({ setIsMyFeed }) => {
                 </div>
 
                 <div className="feedToggleButtons">
-                <Button variant="contained" color="primary" onClick={() => setIsMyFeed(false)}>
+                <Button variant="contained"  className="allFeedButton" onClick={() => setIsMyFeed(false)}>
                     All Feeds
                 </Button>
-                <Button variant="contained" color="secondary" onClick={() => setIsMyFeed(true)}>
+                <Button variant="contained"  className="myFeedButton" onClick={() => setIsMyFeed(true)}>
                     My Feeds
                 </Button>
             </div>

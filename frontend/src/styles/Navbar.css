@@ -108,3 +108,19 @@
 .LogOutButton{
     margin-bottom: 20px;
 }
+
+.feedToggleButtons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.allFeedButton,.myFeedButton{
+    width: 200px;
+    border-radius: 14px !important ;
+    margin-bottom: 10px !important ;
+    background-color: black !important;
+    color: aliceblue !important;
+}
