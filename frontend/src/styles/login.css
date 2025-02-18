@@ -22,7 +22,7 @@
     flex-direction: column;
   }
   .titleName{
-    font-family: "Josefin Sans", serif;
+    font-family: "Josefin Sans", serif !important;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
